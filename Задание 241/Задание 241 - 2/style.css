@@ -1,0 +1,24 @@
+#menu {
+  display: flex;
+  flex-direction: column;
+  width: 280px; 
+}
+
+#menu a {
+  margin-bottom: 8px;
+  padding: 12px 20px;
+  font: 16px Arial, sans-serif;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  background-color: #119E73;
+  border: 1px solid #119E73;
+}
+#menu a:hover, #menu a.active {
+  color: #119E73;
+  background-color: white;
+  border: 1px solid #119E73;
+}
+#menu a:last-child {
+  margin-bottom: 0;
+}

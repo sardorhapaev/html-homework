@@ -1,0 +1,14 @@
+#menu {
+  display: flex;
+}
+#menu a {
+  padding: 12px 30px;
+  font: 16px Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #119E73;
+}
+#menu a:hover, #menu a.active {
+  background-color: #0E7D5B;
+}
